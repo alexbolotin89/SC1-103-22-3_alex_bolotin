@@ -13,15 +13,15 @@ p.dline {
 
 <body>
 <h1>Заголовок первого уровня</h1>
-<p>x | o |<br>
+<pre>    x | o |<br>
     ‐‐‐‐‐‐‐‐‐‐‐<br>
-    | х |<br>
+      | х |<br>
     ‐‐‐‐‐‐‐‐‐‐‐<br>
     o | x | o<br>
-    </p>
+    </pre>
 <hr>
 <h3>Тег address</h3>
-<p><cite>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</cite></p>
+<address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</address>
 <hr>
 <h3>Семантические и функциональные строчные теги</h3>
 <p>Пожелания автора:</p>
@@ -29,28 +29,28 @@ p.dline {
 
 <hr>
 <h3>Работа со строчными и блоковыми цитатами</h3>
-<p>Цитата короткая:<br>
-    И всё­таки она вертится!<br><br>
-    Цитата занимающая несколько предложений:<br><br></p>
+<blockquote>Цитата короткая:<br>
+    <i>И всё­таки она вертится!</i><br><br>
+    Цитата занимающая несколько предложений:<br></p>
     <p style="margin-left: 50px;"> О сколько нам открытий чудных<br>
     Готовят просвещенья дух<br>
     И опыт, сын ошибок трудных,<br>
     И гений, парадоксов друг,<br>
-    И случай, бог изобретатель...</p>
+    И случай, бог изобретатель...</blockquote>
 <hr>
 <h3>Семантические и функциональные строчные теги</h3>
-<p><strong>Тэг &ltSTRONG&gt делает данный фрагмент текста более важным</strong> <cite>Тэг &ltem&gt менее важным.</cite><br>
-В то время как теги &ltb&gt и &lti&gt делают текст просто <strong>полужирным</strong> и <cite>курсивом</cite>соответственно.</p>
+<p><strong>Тэг &ltSTRONG&gt делает данный фрагмент текста более важным.</strong><i> Тэг &ltem&gt менее важным.</i><br>
+В то время как теги &ltb&gt и &lti&gt делают текст просто <strong>полужирным</strong> и <i>курсивом</i> соответственно.</p>
 
 <hr>
 <h3>Теги форматирования машинного языка</h3>
 <p>При выполнении программного кода на языке PERL:</p>
-<p>#!/usr/local/bin/perl<br>
+<code>#!/usr/local/bin/perl<br>
     print "Content‐type: text/html\n\n";<br>
     print "&ltH1&gtHello World&lt/H1&gt\n";
-    </p>
+    </code>
 <p>Программа выведет:</p>
-<p>Hello, World!</p>
+<code>Hello, World!</code>
 
 <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
 
@@ -66,8 +66,8 @@ p.dline {
 <hr>
 <h3>Теги над­- и подстрочных символов</h3>
 <p style="margin-left: 270px;"><strong>Магазин работает:</strong></p>
-<p style="margin-left: 275px;">c 08.30 до 18.30 </p>
-<p style="margin-left: 260px;">обед с 13.00 до 14.00 </p>
+<p style="margin-left: 275px;">c 08<sup><u>30</u></sup> до 18<sup><u>30</u></sup> </p>
+<p style="margin-left: 260px;">обед с 13<sup><u>00</u></sup> до 14<sup><u>00</u></sup> </p>
 <p style="margin-left: 230px;">выходной: <ins>суббота</ins>, <ins>воскресенье</ins> </p>
 <hr>
 <h3>Вот такой текст</h3>
@@ -75,7 +75,7 @@ p.dline {
 <p class="dline"><strong>&nbsp т &nbsp &nbsp&nbsp п &nbspо  &nbspт    &nbsp &nbsp&nbspв  &nbspс   &nbspл  &nbspй    &nbsp&nbsp&nbsp&nbspе   &nbsp&nbspс</strong></p>
 <hr>
 <h3>Акроним и курсив</h3>
-<p>ТФ: Y(<cite>x</cite>)=e ­iπx+logx4</p>
+<p>ТФ: Y(x)=e<sup>-iπx</sup>+log<sub>x</sub>4</p>
 
 <hr>
 <h3>Тег small внтури абзаца</h3>
